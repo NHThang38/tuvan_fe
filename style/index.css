@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(214, 206, 206);
+   
+}
+
+a{
+    text-decoration: none !important;
+}
+/*    Navbar  */
+nav{
+    border-bottom: 1px solid slategrey;
+    box-shadow: 0 1px 8px rgba(85, 108, 111, 0.767);
+}
+nav .logo_nav{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.navbar .heading1{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.navbar .nav-item a {
+    font-size: 16px;
+    /* color: #000; */
+    font-weight: 500;
+}
+
+
+.login a{
+    padding-left: 200px;
+    color: #000;
+    
+}
+/* Carousel */
+.carousel{
+    padding: 0 !important;
+    margin-top: 80px;
+}
+.carousel-inner .carousel-item img{
+        height: 420px;
+        image-rendering: pixelated;
+}
+
+/* Introduce */
+.intro .intro_content .text_intro{
+    width:680px ; 
+    line-height: 2rem;
+    margin-right: 20px;
+}
+.intro .intro_content img {
+   width: 680px; 
+   height: 220px;
+}
+/* specialist */
+/* Specialist */
+.specialist h2 {
+    margin-bottom: 30px;
+}
+
+.specialist .carousel_spec .carousel-inner {
+    padding: 0px 250px;
+    background-image: url(../img/backgck.jpg);
+  
+    
+    filter: drop-shadow(0 0 5px rgb(50, 50, 50));
+}
+.carousel_spec .list_speci {
+    padding: 20px 0;   
+}
+.carousel_spec .list_speci .item_speci {
+    margin: 10px;
+    padding: 20px 20px;
+    width: 100%;
+    position: relative;
+}
+
+.list_speci .item_speci img{
+    display: inline-block;
+    width: 160px;
+     height:160px;
+     margin-bottom: 20px;
+     image-rendering: pixelated;
+     border-radius: 50%;
+     object-fit: cover;
+     transition: 0.5s all;
+}
+
+.list_speci .item_speci img:hover{
+    transform: scale(1.1);   
+}
+.list_speci .item_sp_text{
+    margin-left: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.item_speci .item_sp_text a {
+    color: #f8f9fa !important;
+    
+}
+
+/* .carousel-control-prev span{
+
+    background-image: url(../img/previous-svgrepo-com.svg);
+    width: 32px;
+    height: 32px;
+}
+.carousel-control-next span  {
+    background-image: url(../img/next-svgrepo-com.svg);
+    width: 32px;
+    height: 32px;
+} */
+
+
+/* form_tuvan */
+.form_tuvan{
+    width: 1000px !important;
+    margin: 20px 0px;
+    padding: 20px;
+    border: 1px solid #444954;
+    border-radius: 20px;
+    background-color: rgba(232, 245, 248, 0.775);
+}
+.form_tuvan .heading2{
+    font-size: 24px;
+    font-weight: 500;
+}
+.form_tuvan .note_tv {
+   font-size: 14px;
+    padding-left: 5px;
+   line-height: 39px;
+
+}
+
+/* chatbox */
+
+.show-btn{
+    position: fixed;
+    left: 91%;
+    top: 86%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(98, 158, 207, 0.944);
+    color: #fff;
+}
+.show-btn i {
+    margin: 16px 16px;
+    font-size: 40px;
+}
+input[type="checkbox"]{
+    display: none;
+
+}
+#show:checked ~ .wrapper_chat{
+    display: block;
+
+}
+.wrapper_chat{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 20px;
+    bottom: 120px;
+    padding: 30px;
+    border: 1px solid #444954;
+    border-radius: 20px;
+    width: 400px !important;
+    height: 350px !important;
+    background: #5f95c8fd;
+   
+}
+
+
+/* Footer */
+
+footer {
+    background:#f8f9fa;
+    padding: 0 !important;
+    
+}
+.footer_top{
+    padding: 10px 20px;
+    
+}
+
+
+.ft_left{
+    position: relative;
+}
+
+.ft_left img{
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    width: 80px ; 
+    height: 80px;
+     border-radius: 50%;
+     margin: 5px 140px;
+}
+
+.ft_lef p{
+    line-height: 2rem;
+}
+.ft_center ul {
+    list-style: none;
+}
+.ft_center ul .lienhe{
+    font-size: 24px;
+    font-weight: 500;
+    color: #e84118;
+    padding-bottom: 5px;
+}
+.ft_center .itemtf_icon{
+    font-size: 22px;
+    color: rgba(15, 15, 15, 0.992);
+    margin-right: 10px;
+    margin-top: 2px;
+    
+}
+
+
+
+.logo_contact img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    transition: 0.5s all ;
+    border: none;
+    
+}
+.logo_contact img:hover{
+    border-radius: 50%;
+    transform: rotate(360deg);
+    
+}
+
+.footer_bot{
+    background:#595959 ;
+    padding-top: 5px;
+}
+.footer_bot p{
+       margin: 0 !important;
+}
